@@ -1,0 +1,25 @@
+spring: 
+  cloud: 
+    stream:
+        kafka: 
+          binder:
+            zk-nodes: 192.168.183.100:2181
+            brokers: 192.168.183.100:9092
+  datasource:
+      url: jdbc:mysql://localhost:3306/svw_account?useUnicode=true
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password: root
+      hikari:
+        maximumPoolSize: 10
+
+hystrix:  
+  command:  
+      default: 
+        execution:  
+          isolation:  
+            thread:  
+              timeoutInMilliseconds: 7000   
+#feign:
+#  hystrix: 
+#    enabled: true
