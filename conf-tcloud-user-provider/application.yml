@@ -24,4 +24,4 @@ logging:
     com.svw.tbox.tcloud.user.provider.dao: debug
     org.springframework.cloud.sleuth: DEBUG
     
-profile: ffff
+profile: bbb
