@@ -13,6 +13,13 @@ pagehelper:
   supportMethodsArguments: true
   params: count=countSql
 
+hystrix:  
+  command:  
+      default: 
+        execution:  
+          isolation:  
+            thread:  
+              timeoutInMilliseconds: 7000   
 feign:
   hystrix: 
     enabled: true
