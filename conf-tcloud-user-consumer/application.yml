@@ -1,0 +1,13 @@
+hystrix:  
+  command:  
+      default: 
+        execution:  
+          isolation:  
+            thread:  
+              timeoutInMilliseconds: 7000   
+feign:
+  hystrix: 
+    enabled: true
+    
+    
+profile: zhess

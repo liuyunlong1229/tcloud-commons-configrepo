@@ -12,14 +12,3 @@ spring:
       password: root
       hikari:
         maximumPoolSize: 10
-
-hystrix:  
-  command:  
-      default: 
-        execution:  
-          isolation:  
-            thread:  
-              timeoutInMilliseconds: 7000   
-#feign:
-#  hystrix: 
-#    enabled: true
