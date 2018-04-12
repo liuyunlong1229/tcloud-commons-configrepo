@@ -28,6 +28,6 @@ feign:
 logging:
   level:
     root: INFO
-    com.lyl.tcloud.user.provider.dao: warn
+    com.lyl.tcloud.user.provider.dao: debug
     
 profile: bbb
