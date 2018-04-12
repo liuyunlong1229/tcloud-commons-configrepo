@@ -1,3 +1,4 @@
+spring.jackson.default-property-inclusion: non_null
 mybatis:                               
   mapperLocations: classpath*:META-INF/com/svw/tbox/tcloud/user/provider/mapper/*.xml
   type-aliases-package: com.svw.tbox.tcloud.user.provider.entity
@@ -27,8 +28,6 @@ feign:
 logging:
   level:
     root: INFO
-    org.springframework.web.servlet.DispatcherServlet: DEBUG
-    com.svw.tbox.tcloud.user.provider.dao: debug
-    org.springframework.cloud.sleuth: DEBUG
+    com.lyl.tcloud.user.provider.dao: debug
     
 profile: bbb

@@ -12,6 +12,7 @@ spring:
       password: root
       hikari:
         maximumPoolSize: 10
+   
 
 
 
