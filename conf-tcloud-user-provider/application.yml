@@ -1,4 +1,4 @@
-spring.jackson.default-property-inclusion: non-null
+spring.jackson.default-property-inclusion: non_null
 mybatis:                               
   mapperLocations: classpath*:META-INF/com/svw/tbox/tcloud/user/provider/mapper/*.xml
   type-aliases-package: com.svw.tbox.tcloud.user.provider.entity
