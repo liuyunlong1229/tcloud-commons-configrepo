@@ -1,7 +1,7 @@
 #spring.jackson.default-property-inclusion: non_null
 mybatis:                               
-  mapperLocations: classpath*:META-INF/com/svw/tbox/tcloud/user/provider/mapper/*.xml
-  type-aliases-package: com.svw.tbox.tcloud.user.provider.entity
+  mapperLocations: classpath*:META-INF/com/lyl/tcloud/user/provider/mapper/*.xml
+  type-aliases-package: com.lyl.tcloud.user.provider.entity
 mapper:                
   mappers: 
     - tk.mybatis.mapper.common.Mapper
